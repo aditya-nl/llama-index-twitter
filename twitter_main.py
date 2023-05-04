@@ -41,7 +41,7 @@ def main(query, twitter_handles):
     return response
 
 
-st.header("Twitter Qs")
+st.header("NueLife/Twitter")
 
 twitter_handles = st.text_input("Enter the twitter handles you want to search")
 user_input = st.text_input("Ask a question about the twitter handles")
